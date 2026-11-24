@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon College of Engineering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Horizon College</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <h1>Welcome to Horizon College</h1>
+            <p>Shaping future engineers, thinkers, and innovators since 1998.</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </section>
+
+        <!-- Highlights Section (Flexbox Cards) -->
+        <section id="about" class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Experienced Faculty</h3>
+                    <p>Learn from professors and industry mentors dedicated to practical education.</p>
+                </div>
+                <div class="card">
+                    <h3>Modern Labs</h3>
+                    <p>Fully equipped computing, electronics, and research labs open to all students.</p>
+                </div>
+                <div class="card">
+                    <h3>Campus Placements</h3>
+                    <p>Strong placement cell with top recruiters visiting every academic year.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Table Section -->
+        <section id="courses" class="container">
+            <h2>Academic Programs</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Name</th>
+                            <th>Duration</th>
+                            <th>Annual Fee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BTECH-CS</td>
+                            <td>Computer Science & Engineering</td>
+                            <td>4 Years</td>
+                            <td>₹1,20,000</td>
+                        </tr>
+                        <tr>
+                            <td>BTECH-EC</td>
+                            <td>Electronics & Communication</td>
+                            <td>4 Years</td>
+                            <td>₹1,10,000</td>
+                        </tr>
+                        <tr>
+                            <td>BTECH-ME</td>
+                            <td>Mechanical Engineering</td>
+                            <td>4 Years</td>
+                            <td>₹1,05,000</td>
+                        </tr>
+                        <tr>
+                            <td>BCA-01</td>
+                            <td>Bachelor of Computer Applications</td>
+                            <td>3 Years</td>
+                            <td>₹75,000</td>
+                        </tr>
+                        <tr>
+                            <td>MBA-01</td>
+                            <td>Master of Business Administration</td>
+                            <td>2 Years</td>
+                            <td>₹1,40,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="container">
+            <h2>Admissions & Contact</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="program">Interested Program</label>
+                    <select id="program" name="program">
+                        <option value="cs">Computer Science & Engineering</option>
+                        <option value="ec">Electronics & Communication</option>
+                        <option value="me">Mechanical Engineering</option>
+                        <option value="bca">BCA</option>
+                        <option value="mba">MBA</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your query here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Horizon College of Engineering. All rights reserved.</p>
+        <p>Email: admissions@horizoncollege.edu | Phone: +91 98765 43210</p>
+    </footer>
+
+</body>
+</html>
